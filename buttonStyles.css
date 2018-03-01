@@ -32,7 +32,11 @@ button{
     float: left;
 }
 .nightmode{
-  background-color:"#000000";
-  subtitle.style:"#ffffff";
-  para:"#ffffff";
+  background-color: #000000;
+  color: #ffffff;
+
+}
+
+.daymode{
+  background-color
 }
