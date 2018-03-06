@@ -52,7 +52,7 @@
                     <li class="fish">blue fish</li>
                 </ul>
             </div>
-            <button onclick="colorfish()">Technicolor Fish</button>
+            <button onclick="fish()">Technicolor Fish</button>
         </section>
 
         <section id="bb5" class="bigbox">
@@ -61,8 +61,8 @@
                 <span>20</span>
             </div>
             <br>
-            <button onclick="">+1</button>
-            <button onclick="">+10</button>
+            <button onclick="(plus1)">+1</button>
+            <button onclick="(plus10)">+10</button>
         </section>
     </body>
     <script type="text/javascript">
@@ -100,19 +100,32 @@ function nightmode(){
 
         }
         //function 4
-        function colorfish(){
+        function fish(){
           const doc=document;
-          doc.queryselector('.fish');
-let firstfish = array[0];
-let somefish = array[1];
-let redfish = [2];
-let bluefish = [3];
-bluefish.style.color('.bf');
-redfish.style.color('.rf');
-'#bb4>div>p'
+  let fish = doc.querySelectorAll("#bb4 > div > ul > .fish");
+  let redfish = fish[2];
+  let bluefish = fish[3];
+  redfish.style.color="red";
+  bluefish.style.color="blue";
+
+
+
 
 
 }
         //function 5 & 6
+        function plus1(){
+          const doc=document;
+        
+          value++
+
+
+        }
+
+        function plus10(){
+          const doc=document;
+          let value = 10;
+          value = value +10
+        }
     </script>
 </html>
